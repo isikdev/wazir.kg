@@ -129,4 +129,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background-color: #ff0000;
 }
 
-// checkbox
+.status {
+    display: flex;
+    align-items: center;
+}

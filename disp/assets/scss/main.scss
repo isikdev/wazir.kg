@@ -3,6 +3,7 @@
 @import "_assets";
 @import "_root";
 @import "_checkbox";
+@import "_control_edit";
 body,
 html {
     font-family: "Montserrat", sans-serif;
@@ -587,6 +588,53 @@ html {
         gap: 10px;
         button {
             width: 100%;
+        }
+    }
+    &__chat-wrapper {
+        display: flex;
+    }
+    &__driversedit-wrapper {
+        padding: 20px 0;
+    }
+
+    &__table-chat-group-wrapper {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        gap: 8px;
+    }
+    &__table-chat-group {
+        width: 100%;
+        display: flex;
+        gap: 8px;
+        button {
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+        }
+        select {
+            width: 100%;
+            option {
+                width: 100%;
+            }
+        }
+    }
+    &__subheader-filing-chat {
+        width: 100%;
+    }
+    &__chat-table-wrapper {
+        width: 60%;
+    }
+    &__chat-table {
+        width: 40%;
+    }
+    &__table-chat-group {
+        margin: 10px 0;
+        textarea {
+            width: 592px;
+            height: 200px;
+            color: #fff;
         }
     }
 }
