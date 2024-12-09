@@ -1066,4 +1066,110 @@ html {
   width: 592px;
   height: 200px;
   color: #fff;
+}
+.main__order-wrapper {
+  background-color: #47484c;
+  padding: 20px;
+}
+.main__order-wrapper-blocks {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.main__order-header {
+  display: flex;
+  gap: 20px;
+}
+.main__order-header-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+.main__order-subheader {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+.main__order-subheader-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.main__order-subheader-item select {
+  background-color: #5f6063;
+}
+.main__order-subheader-item .main__btn-short {
+  padding: 14px 12px;
+}
+.main__order-details {
+  margin: 10px 0;
+}
+.main__order-details-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+  width: 100%;
+}
+.main__order-details-item button {
+  padding: 12px 55px;
+}
+.main__order-details-item button span {
+  color: red;
+}
+.main__order-notes {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.main__order-notes-text #subheader__input-item {
+  background-color: #5f6063 !important;
+  padding: 10px 15px;
+  width: 524px;
+  height: 113px;
+}
+.main__order-notes-settings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 10px;
+}
+.main__order-settings {
+  max-width: 50%;
+  width: 100%;
+}
+.main__order-settings .main__table thead tr {
+  background-color: #535357;
+}
+.main__order-map {
+  max-width: 50%;
+  width: 100%;
+}
+.main__order-map-item {
+  background-color: #747577;
+  padding: 30px;
+  color: #fff;
+  border-radius: 5px;
+  height: 338px;
+}
+.main__order-map-settings {
+  margin: 10px 0;
+}
+.main__order-map-settings button {
+  width: 100%;
+}
+.main__order-map-settings-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.main__order-map-settings-item button {
+  width: 100%;
+}
+.main__order-wrapper-btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }/*# sourceMappingURL=main.css.map */

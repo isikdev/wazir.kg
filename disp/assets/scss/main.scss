@@ -637,4 +637,116 @@ html {
             color: #fff;
         }
     }
+    &__order-wrapper {
+        background-color: $light_gray_1;
+        padding: 20px;
+    }
+    &__order-wrapper-blocks {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    &__order-header {
+        display: flex;
+        gap: 20px;
+    }
+    &__order-header-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+    }
+    &__order-subheader {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        justify-content: space-between;
+    }
+    &__order-subheader-item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        select {
+            background-color: $light_gray_5;
+        }
+        .main__btn-short {
+            padding: 14px 12px;
+        }
+    }
+    &__order-details {
+        margin: 10px 0;
+    }
+    &__order-details-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 12px 0;
+        width: 100%;
+        button {
+            padding: 12px 55px;
+            span {
+                color: red;
+            }
+        }
+    }
+    &__order-notes {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    &__order-notes-text {
+        #subheader__input-item {
+            background-color: $light_gray_5 !important;
+            padding: 10px 15px;
+            width: 524px;
+            height: 113px;
+        }
+    }
+    &__order-notes-settings {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 10px;
+    }
+    &__order-settings {
+        max-width: 50%;
+        width: 100%;
+        .main__table {
+            thead {
+                tr {
+                    background-color: $light_gray_2;
+                }
+            }
+        }
+    }
+    &__order-map {
+        max-width: 50%;
+        width: 100%;
+    }
+    &__order-map-item {
+        background-color: $light_gray_3;
+        padding: 30px;
+        color: #fff;
+        border-radius: 5px;
+        height: 338px;
+    }
+    &__order-map-settings {
+        margin: 10px 0;
+        button {
+            width: 100%;
+        }
+    }
+    &__order-map-settings-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        button {
+            width: 100%;
+        }
+    }
+    &__order-wrapper-btn {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
 }
