@@ -4,6 +4,8 @@
 @import "_root";
 @import "_checkbox";
 @import "_control_edit";
+@import "_analytics";
+@import "_menu";
 body,
 html {
     font-family: "Montserrat", sans-serif;
@@ -115,6 +117,9 @@ html {
                 }
                 &:hover {
                     opacity: 0.5;
+                }
+                a {
+                    color: #fff;
                 }
             }
         }
@@ -245,6 +250,9 @@ html {
             transition: all 0.3s ease;
             &:hover {
                 opacity: 0.7;
+            }
+            a {
+                color: #fff;
             }
             span {
                 width: 5px;

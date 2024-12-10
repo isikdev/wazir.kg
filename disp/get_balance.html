@@ -8,10 +8,48 @@
     </head>
     <body>
         <div class="wrapper">
+            <div class="navbar__menu">
+                <div class="navbar__menu-links">
+                    <h4>Диспетчерская</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="./analytics.html">Статистика</a></li>
+                            <li><a href="./get_balance.html">Запрос на
+                                    баланс</a></li>
+                            <li><a href="./new_order.html">Новый заказ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="navbar__menu-links">
+                    <h4>Автопарк</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="./drivers_control_edit.html">Создание
+                                    водителя</a></li>
+                            <li><a href="./pay_balance.html">Пополнение
+                                    баланса</a></li>
+                            <li><a href="./drivers.html">Водители</a></li>
+                            <li><a
+                                    href="./cars.html">Автомобили</a></li>
+                            <li><a href="./chat.html">Чат</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="navbar__menu-links">
+                    <h4>Контроль</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="./drivers_control.html">Фото
+                                    контроль</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
             <div class="navbar">
                 <div class="navbar__content">
                     <div class="navbar__logo">
-                        <a href="#"><img src="./assets/img/logo/logo_small.png"
+                        <a href="./index.html"><img
+                                src="./assets/img/logo/logo_small.png"
                                 alt="logo"></a>
                     </div>
                     <div class="navbar__links">
@@ -22,11 +60,13 @@
                                     alt="disp"></a>
                             <a href="#"><img src="./assets/img/ico/maps.png"
                                     alt="maps"></a>
-                            <a href="#"><img src="./assets/img/ico/user.png"
+                            <a href="./drivers.html"><img
+                                    src="./assets/img/ico/user.png"
                                     alt="user"></a>
-                            <a href="#"><img src="./assets/img/ico/car.png"
+                            <a href="./cars.html"><img
+                                    src="./assets/img/ico/car.png"
                                     alt="car"></a>
-                            <a href="#"><img
+                            <a href="./analytics.html"><img
                                     src="./assets/img/ico/analytics.png"
                                     alt="analytics"></a>
                         </div>
@@ -37,7 +77,8 @@
                                     alt="info"></a>
                             <a href="#"><img src="./assets/img/ico/settings.png"
                                     alt="settings"></a>
-                            <a href="#"><img src="./assets/img/ico/menu.png"
+                            <a class="menu" href="#"><img
+                                    src="./assets/img/ico/menu.png"
                                     alt="menu"></a>
                         </div>
                     </div>
@@ -50,11 +91,12 @@
                     </div>
                     <div class="main__header-tags">
                         <ul>
-                            <li>Водитель</li>
-                            <li>Автомобиль</li>
-                            <li>Фото контроль</li>
+                            <li><a href="./drivers.html">Водитель</a></li>
+                            <li><a href="./cars.html">Автомобиль</a></li>
+                            <li><a href="./drivers_control.html">Фото
+                                    контроль</a></li>
                             <li>Тариф</li>
-                            <li>Чат</li>
+                            <li><a href="./chat.html">Чат</a></li>
                         </ul>
                     </div>
                     <div class="main__header-search">
@@ -196,5 +238,7 @@
                 </div>
             </div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="./assets/js/script.js"></script>
     </body>
 </html>
