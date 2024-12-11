@@ -74,7 +74,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     &:hover {
         background: $light_gray_2;
     }
+    a {
+        color: #fff;
+    }
 }
+
+.main__btn-driver {
+    background: $light_gray_3 !important;
+}
+
 .main__btn-short {
     padding: 12px 24px;
     background: #5f6063;

@@ -182,14 +182,14 @@
                     <div class="main__subheader-add">
                         <div class="main__subheader-filing">
                             <button
-                                class="main__btn main__btn-driver">
+                                class="main__btn">
                                 <a href="./drivers_control_edit.html">
                                     Водитель
                                 </a>
                             </button>
                         </div>
                         <div class="main__subheader-filing">
-                            <button class="main__btn">
+                            <button class="main__btn main__btn-driver">
                                 <a href="./drivers_num_edit.html">
                                     Автомобиль
                                 </a>
@@ -227,87 +227,119 @@
                     <h3>Запросы</h3>
                 </div>
                 <div class="main__driversedit-wrapper">
-                    <h3 class="title">Персональные данные</h3>
+                    <h3 class="title">Автомобиль</h3>
                     <form class="personal-data-form">
                         <div class="form-column">
                             <div class="form-group">
-                                <label for="fio">Ф.И.О.</label>
+                                <label for="fio">Марка</label>
                                 <input type="text" id="fio" name="fio"
-                                    placeholder="Лавров Сергей Викторович" />
+                                    placeholder>
                             </div>
                             <div class="form-group">
-                                <label for="dob">Дата рождения</label>
+                                <label for="dob">Модель</label>
                                 <input type="text" id="dob" name="dob"
-                                    placeholder="26.06.2024" />
+                                    placeholder>
                             </div>
                             <div class="form-group">
-                                <label for="personal-number">Персональный
-                                    номер</label>
+                                <label for="personal-number">Цвет</label>
                                 <input type="text" id="personal-number"
                                     name="personal-number"
-                                    placeholder="2222819937793" />
+                                    placeholder>
                             </div>
-
-                            <div class="form-group upload-group">
-                                <div class="upload-label">Загрузите
-                                    ID<br>(Персональный Паспорт)<br>Лицевая
-                                    сторона</div>
-                                <label class="upload-box">
-                                    <input type="file" name="passport-front" />
-                                    <span class="upload-icon">+</span>
-                                </label>
+                            <div class="form-group">
+                                <label for="personal-number">Год</label>
+                                <input type="text" id="personal-number"
+                                    name="personal-number"
+                                    placeholder>
                             </div>
-
-                            <div class="form-group upload-group">
-                                <div class="upload-label">Загрузите
-                                    ВУ<br>(Водительский
-                                    удостоверения)<br>Лицевая сторона</div>
-                                <label class="upload-box">
-                                    <input type="file" name="drivers-front" />
-                                    <span class="upload-icon">+</span>
-                                </label>
+                            <h3 class="title">Комплектация и брендинг</h3>
+                            <div class="form-group">
+                                <label for="fio">КПП</label>
+                                <input type="text" id="fio" name="fio"
+                                    placeholder>
+                            </div>
+                            <div class="form-group">
+                                <label for="dob">Бустеры</label>
+                                <input type="text" id="dob" name="dob"
+                                    placeholder>
+                            </div>
+                            <div class="form-group">
+                                <label for="personal-number">Детское
+                                    кресло</label>
+                                <input type="text" id="personal-number"
+                                    name="personal-number"
+                                    placeholder>
+                            </div>
+                            <h3 class="title">Параметры</h3>
+                            <div class="form-group">
+                                <label for="fio">Парковая машина</label>
+                                <input type="text" id="fio" name="fio"
+                                    placeholder>
+                            </div>
+                            <div class="form-group">
+                                <label for="dob">Позывной</label>
+                                <input type="text" id="dob" name="dob"
+                                    placeholder>
+                            </div>
+                            <h3 class="title">Тариф</h3>
+                            <div class="form-group">
+                                <label for="fio">Тариф</label>
+                                <input type="text" id="fio" name="fio"
+                                    placeholder>
                             </div>
                         </div>
 
                         <div class="form-column">
                             <div class="form-group">
-                                <label for="license-num">ВУ (№
-                                    Удостоверения)</label>
+                                <label for="license-num">Гос.номер</label>
                                 <input type="text" id="license-num"
                                     name="license-num"
-                                    placeholder="012345678" />
+                                    placeholder>
                             </div>
                             <div class="form-group">
-                                <label for="issue-date">Дата выдачи</label>
+                                <label for="issue-date">VIN</label>
                                 <input type="text" id="issue-date"
                                     name="issue-date"
-                                    placeholder="23.06.2024" />
+                                    placeholder>
                             </div>
                             <div class="form-group">
-                                <label for="expiry-date">Срок действия</label>
+                                <label for="expiry-date">Номер кузова</label>
                                 <input type="text" id="expiry-date"
                                     name="expiry-date"
-                                    placeholder="23.06.2024" />
+                                    placeholder>
                             </div>
-
-                            <div class="form-group upload-group">
-                                <div class="upload-label">Загрузите
-                                    ID<br>(Персональный Паспорт)<br>Задняя
-                                    сторона</div>
-                                <label class="upload-box">
-                                    <input type="file" name="passport-back" />
-                                    <span class="upload-icon">+</span>
-                                </label>
+                            <div class="form-group">
+                                <label for="expiry-date">СТС</label>
+                                <input type="text" id="expiry-date"
+                                    name="expiry-date"
+                                    placeholder>
                             </div>
-
-                            <div class="form-group upload-group">
-                                <div class="upload-label">Загрузите
-                                    ВУ<br>(Водительский удостоверения)<br>Задняя
-                                    сторона</div>
-                                <label class="upload-box">
-                                    <input type="file" name="drivers-back" />
-                                    <span class="upload-icon">+</span>
-                                </label>
+                            <div class="form-group">
+                                <label for="nakleyka">Наклейка</label>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" class="custom-input">
+                                    <span class="checkmark"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="nakleyka">Лайтбокс - Шашка</label>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" class="custom-input">
+                                    <span class="checkmark"></span>
+                                </div>
+                            </div>
+                            <h3 class="title">Услуги</h3>
+                            <div class="form-group">
+                                <label for="expiry-date">Услуга</label>
+                                <input type="text" id="expiry-date"
+                                    name="expiry-date"
+                                    placeholder>
+                            </div>
+                            <div class="form-group">
+                                <label for="expiry-date">Категория</label>
+                                <input type="text" id="expiry-date"
+                                    name="expiry-date"
+                                    placeholder>
                             </div>
                         </div>
                     </form>

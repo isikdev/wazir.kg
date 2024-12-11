@@ -757,4 +757,21 @@ html {
         justify-content: center;
         gap: 10px;
     }
+    &__driverscar-btn {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 10px;
+    }
+    &__drivers-car-salon {
+        display: flex;
+        gap: 20px;
+        align-items: start !important;
+    }
+    &__drivers-car {
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+    }
 }

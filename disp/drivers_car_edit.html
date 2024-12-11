@@ -182,7 +182,7 @@
                     <div class="main__subheader-add">
                         <div class="main__subheader-filing">
                             <button
-                                class="main__btn main__btn-driver">
+                                class="main__btn">
                                 <a href="./drivers_control_edit.html">
                                     Водитель
                                 </a>
@@ -196,11 +196,8 @@
                             </button>
                         </div>
                         <div class="main__subheader-filing">
-                            <button class="main__btn">
-                                <a href="./drivers_car_edit.html">
-                                    Фото автомобиля
-                                </a>
-                            </button>
+                            <button class="main__btn main__btn-driver">Фото
+                                автомобиля</button>
                         </div>
                     </div>
                     <div class="main__subheader-drivers">
@@ -231,89 +228,56 @@
                     <form class="personal-data-form">
                         <div class="form-column">
                             <div class="form-group">
-                                <label for="fio">Ф.И.О.</label>
-                                <input type="text" id="fio" name="fio"
-                                    placeholder="Лавров Сергей Викторович" />
+                                <label for="photo_1">Фото Автомобиля <br>
+                                    (Автомобиль
+                                    спереди)</label>
+                                <div class="form-group-image">
+                                    <input name="photo_1"
+                                        style="display: none;">
+                                    <div class="form-group-image-item">
+                                        <img src="./assets/img/car/1.png"
+                                            alt="1">
+                                    </div>
+                                </div>
                             </div>
                             <div class="form-group">
-                                <label for="dob">Дата рождения</label>
-                                <input type="text" id="dob" name="dob"
-                                    placeholder="26.06.2024" />
+                                <label for="dob">Фото автомобиля <br>
+                                    (Автомобиль сзади)</label>
+                                <img src="./assets/img/car/1.png" alt="1">
                             </div>
                             <div class="form-group">
-                                <label for="personal-number">Персональный
-                                    номер</label>
-                                <input type="text" id="personal-number"
-                                    name="personal-number"
-                                    placeholder="2222819937793" />
-                            </div>
-
-                            <div class="form-group upload-group">
-                                <div class="upload-label">Загрузите
-                                    ID<br>(Персональный Паспорт)<br>Лицевая
-                                    сторона</div>
-                                <label class="upload-box">
-                                    <input type="file" name="passport-front" />
-                                    <span class="upload-icon">+</span>
-                                </label>
-                            </div>
-
-                            <div class="form-group upload-group">
-                                <div class="upload-label">Загрузите
-                                    ВУ<br>(Водительский
-                                    удостоверения)<br>Лицевая сторона</div>
-                                <label class="upload-box">
-                                    <input type="file" name="drivers-front" />
-                                    <span class="upload-icon">+</span>
-                                </label>
+                                <label for="personal-number">Фото с ВУ <br>
+                                    (Водительское удостоверение)</label>
+                                <img src="./assets/img/car/5.png" alt="5">
                             </div>
                         </div>
 
                         <div class="form-column">
                             <div class="form-group">
-                                <label for="license-num">ВУ (№
-                                    Удостоверения)</label>
-                                <input type="text" id="license-num"
-                                    name="license-num"
-                                    placeholder="012345678" />
+                                <label for="license-num">Фото
+                                    автомобиля<br>(Автомобиль справа)</label>
+                                <img src="./assets/img/car/2.png" alt="2">
                             </div>
                             <div class="form-group">
-                                <label for="issue-date">Дата выдачи</label>
-                                <input type="text" id="issue-date"
-                                    name="issue-date"
-                                    placeholder="23.06.2024" />
+                                <label for="issue-date">Фото автомобиля <br>
+                                    (Автомобиль слева)</label>
+                                <img src="./assets/img/car/4.png" alt="4">
                             </div>
-                            <div class="form-group">
-                                <label for="expiry-date">Срок действия</label>
-                                <input type="text" id="expiry-date"
-                                    name="expiry-date"
-                                    placeholder="23.06.2024" />
-                            </div>
-
-                            <div class="form-group upload-group">
-                                <div class="upload-label">Загрузите
-                                    ID<br>(Персональный Паспорт)<br>Задняя
-                                    сторона</div>
-                                <label class="upload-box">
-                                    <input type="file" name="passport-back" />
-                                    <span class="upload-icon">+</span>
+                            <div class="form-group main__drivers-car-salon">
+                                <label for="expiry-date">
+                                    Фото Салона
+                                    <br>Спереди и сзади
                                 </label>
-                            </div>
-
-                            <div class="form-group upload-group">
-                                <div class="upload-label">Загрузите
-                                    ВУ<br>(Водительский удостоверения)<br>Задняя
-                                    сторона</div>
-                                <label class="upload-box">
-                                    <input type="file" name="drivers-back" />
-                                    <span class="upload-icon">+</span>
-                                </label>
+                                <div class="main__drivers-car">
+                                    <img src="./assets/img/car/6.png" alt="6">
+                                    <img src="./assets/img/car/6.png" alt="6">
+                                </div>
                             </div>
                         </div>
                     </form>
-                    <div class="action-buttons">
-                        <button type="submit"
-                            class="main__btn-green">Сохранить</button>
+                    <div class="main__driverscar-btn">
+                        <button class="main__btn-green">Готова</button>
+                        <button class="main__btn">Не совпадает</button>
                     </div>
                 </div>
             </div>

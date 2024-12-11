@@ -261,6 +261,13 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .main__btn:hover {
   background: #535357;
 }
+.main__btn a {
+  color: #fff;
+}
+
+.main__btn-driver {
+  background: #747577 !important;
+}
 
 .main__btn-short {
   padding: 12px 24px;
@@ -586,10 +593,13 @@ input[type=date]::-webkit-calendar-picker-indicator {
   width: 300px;
   height: 100%;
   padding: 30px;
-  left: -120%;
   transition: all 0.3s ease;
+  left: -120%;
 }
-.navbar__menu-active {
+.navbar__menu-settings-active {
+  left: 3.8%;
+}
+.navbar__menu-info-active {
   left: 3.8%;
 }
 .navbar__menu-links h4 {
@@ -1331,4 +1341,21 @@ html {
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+.main__driverscar-btn {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 10px;
+}
+.main__drivers-car-salon {
+  display: flex;
+  gap: 20px;
+  align-items: start !important;
+}
+.main__drivers-car {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
 }/*# sourceMappingURL=main.css.map */
