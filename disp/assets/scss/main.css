@@ -596,10 +596,13 @@ input[type=date]::-webkit-calendar-picker-indicator {
   transition: all 0.3s ease;
   left: -120%;
 }
-.navbar__menu-settings-active {
+.navbar__menu.navbar__settings-active {
   left: 3.8%;
 }
-.navbar__menu-info-active {
+.navbar__menu.navbar__menu-info-active {
+  left: 3.8%;
+}
+.navbar__menu.navbar__menu-settings-active {
   left: 3.8%;
 }
 .navbar__menu-links h4 {
