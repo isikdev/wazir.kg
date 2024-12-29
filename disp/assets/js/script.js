@@ -10,3 +10,8 @@ settings.on("click", function () {
 support.on("click", function () {
     $(".navbar__settings").toggleClass("navbar__menu-settings-active");
 });
+$(document).keydown(function (event) {
+    if (event.key === 'F2') {
+        window.location.href = 'https://wazir.kg/disp/new_order.html';
+    }
+});
